@@ -7,17 +7,17 @@
     <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="{{ asset('/') }}">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="{{ asset('/about') }}">About</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Movies</a>
                 <div class="dropdown-menu" aria-labelledby="dropdownId">
-                    <a class="dropdown-item" href="#">Beguns</a>
-                    <a class="dropdown-item" href="#">The Dark Knight</a>
-                    <a class="dropdown-item" href="#">The Dark Knight Rises</a>
+                    <a class="dropdown-item" href="{{ asset('/beguns') }}">Beguns</a>
+                    <a class="dropdown-item" href="{{ asset('/thedarkknight') }}">The Dark Knight</a>
+
                 </div>
             </li>
         </ul>
